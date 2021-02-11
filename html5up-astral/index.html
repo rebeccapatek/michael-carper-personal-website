@@ -1,3 +1,19 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("rebeccapatek@gmail.com", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
 <!DOCTYPE HTML>
 
 <html>
@@ -123,7 +139,7 @@
 						</div>
 					</div>
 				</form> -->
-				<form method="post" action="subscriberform.php">
+				<form method="post" action="#">
 
 
 					<textarea name="message"></textarea>
